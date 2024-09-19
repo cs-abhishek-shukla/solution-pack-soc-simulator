@@ -62,7 +62,7 @@ The **SOC Simulator** solution pack places the option to run simulations at mult
 
 ## Reset a Scenario
 
-Resetting a scenario removes any demo alerts created by that scenario. **Reset Scenario** option helps clear the environment of any example alerts and helps display only the actuals.
+Resetting a scenario removes any demo alerts created by that scenario. **Reset Scenario** option helps clear the environment of any example alerts and helps display only the actual records.
 
 You can reset a scenario by using any of the following methods.
 
