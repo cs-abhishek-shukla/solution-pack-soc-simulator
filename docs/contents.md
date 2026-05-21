@@ -11,7 +11,8 @@ The **SOC Simulator** solution pack contains following resources.
 |:------------------------|:-----------------------------------------------------------------------------------------------------------------------|
 | FortiSOAR SOC Simulator | Simulates a SOC environment and creates various scenarios-based artifacts such as alerts, incidents, etc. in FortiSOAR |
 
->**Warning:** After deployment, this solution pack installs or upgrades this connector.
+>[!Warning]
+>After deployment, this solution pack installs/upgrades the *FortiSOAR SOC Simulator* connector.
 
 ## Module Schema
 
@@ -32,4 +33,5 @@ The **SOC Simulator** solution pack contains following resources.
 | Run Scenario - Create Alerts | Creates records related to a scenario                                                   |
 | Run Selected Scenario        | Executes a scenario and create related records triggered from the 'Alerts' page         |
 
->**Warning:** It is recommended not to modify these playbooks to avoid any breaks in scenario simulation functionality
+>[!Warning]
+>Modifying these playbooks may break scenario simulation functionality. Hence, we recommend that you exercise caution.
