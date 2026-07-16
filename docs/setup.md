@@ -1,5 +1,5 @@
-| [Home](/README.md) | 
-|--------------------------------------------|
+| [Home](./README.md) | 
+|---------------------|
 
 # Installation
 
@@ -24,3 +24,8 @@ Ensure that the following solution pack is deployed:
 # Configuration
 
 SOC Simulator provides a simulation environment where you can run simulations included with other solution packs. There are no configurations required for this solution pack.
+
+## Next Steps
+
+| [Installation](./setup.md#installation) | [Configuration](./setup.md#configuration) | [Usage](./usage) |
+|-----------------------------------------|-------------------------------------------|------------------|
