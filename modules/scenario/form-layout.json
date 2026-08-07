@@ -24,13 +24,13 @@
                                                             "readOnly": false
                                                         },
                                                         {
-                                                            "name": "icon",
+                                                            "name": "description",
                                                             "highlightMode": true,
                                                             "linky": true,
                                                             "readOnly": false
                                                         },
                                                         {
-                                                            "name": "description",
+                                                            "name": "icon",
                                                             "highlightMode": true,
                                                             "linky": true,
                                                             "readOnly": false
