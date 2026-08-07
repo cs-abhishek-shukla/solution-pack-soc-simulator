@@ -70,6 +70,13 @@
                                                                                             {
                                                                                                 "fields": [
                                                                                                     {
+                                                                                                        "name": "icon",
+                                                                                                        "highlightMode": true,
+                                                                                                        "linky": true,
+                                                                                                        "readOnly": false,
+                                                                                                        "viewRenderWidget": ""
+                                                                                                    },
+                                                                                                    {
                                                                                                         "name": "description",
                                                                                                         "highlightMode": true,
                                                                                                         "linky": true,
