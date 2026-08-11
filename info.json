@@ -20,7 +20,7 @@
     "category": [],
     "supportInfo": "Fortinet Customer Support",
     "iconLarge": null,
-    "fsrMinCompatibility": "7.6.5",
+    "fsrMinCompatibility": "8.0.1",
     "date": "2026-08-07T14:00:59+00:00",
     "contents": {
         "modules": {
@@ -64,8 +64,7 @@
         "widgets": [
             {
                 "apiName": "scenarioSimulator",
-                "name": "Scenario Simulator",
-                "version": "1.0.0"
+                "name": "Scenario Simulator"
             }
         ]
     }

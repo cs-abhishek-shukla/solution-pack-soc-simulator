@@ -1,7 +1,6 @@
 [
     {
         "name": "scenarioSimulator",
-        "version": "1.0.0",
         "title": "Scenario Simulator",
         "install_mode": "rpm"
     }
