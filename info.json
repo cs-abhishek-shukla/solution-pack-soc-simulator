@@ -60,6 +60,13 @@
                 "name": "FortiSOAR SOC Simulator",
                 "apiName": "fortisoar-soc-simulator"
             }
+        ],
+        "widgets": [
+            {
+                "apiName": "scenarioSimulator",
+                "name": "Scenario Simulator",
+                "version": "1.0.0"
+            }
         ]
     }
 }
