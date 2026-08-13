@@ -3,7 +3,7 @@
 
 # Usage
 
-FortiSOAR&trade; can handle various scenarios that demonstrate its various features, such as the FortiSOAR&trade; recommendation engine that lists alerts related to similar hosts. This recommendation gives you a complete picture of the incident.
+FortiSOAR&trade; can handle various scenarios that demonstrate its various features, such as the FortiSOAR&trade; recommendation engine that lists alerts related to similar hosts. This recommendation gives you a complete picture of the case.
 
 There are other scenarios that demonstrate the investigation process and therefore contain associated investigation playbooks.
 
@@ -20,7 +20,7 @@ Click an alert created by this simulation, for example, *Windows User Created* t
 - Select the Comments icon on the far right corner to open it.
 - Click on the **Recommendations** tab to observe that there are similar other alerts indicating that related operations are taking place.
 
-Hence, the FortiSOAR™ engine eases a SOC analyst's task of going through several alerts to find out the similar ones. Now, they can select similar alerts, link them, or escalate them to create a security incident.
+Hence, the FortiSOAR™ engine eases a SOC analyst's task of going through several alerts to find out the similar ones. Now, they can select similar alerts, link them, or escalate them to create a security case.
 
 ![Alert created for the Stolen Credentials scenario](res/stolen-creds-scenario-alerts.png)
 
@@ -52,7 +52,7 @@ The **SOC Simulator** solution pack places the option to run simulations at mult
 
 ### From Alerts Page
 
-1. Click **Incident Response** > **Alerts** to open the Alerts page.
+1. Click **Security Operations** > **Alerts** to open the Alerts page.
     ![Simulate From Alert Page](res/simulate-scenario-alert.png)
 2. Click the button **Simulate Scenario**.
 3. From the **Simulate Scenario** select a scenario from the **Scenario** drop-down.
@@ -68,7 +68,7 @@ You can reset a scenario by using any of the following methods.
 
 ### From Scenario Page
 
-1. Click on **Simulations** to open the **Scenario** page.
+1. Click **Resources** > **Simulations** to open the **Scenario** page.
 2. Click the checkbox to select a scenario that you have already run.
 3. Click the button **Reset Scenario**.
 
@@ -76,7 +76,7 @@ You can reset a scenario by using any of the following methods.
 
 ### From Scenario Record
 
-1. Click **Simulations** to open **Scenario** page.
+1. Click **Resources** > **Simulations** to open **Scenario** page.
 2. Click a scenario record, which you have already run, to open it.
 3. Click the button **Reset Scenario**.
 

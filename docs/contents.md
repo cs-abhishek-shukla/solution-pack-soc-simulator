@@ -9,7 +9,7 @@ The **SOC Simulator** solution pack contains following resources.
 
 | Connector               | Description                                                                                                            |
 |:------------------------|:-----------------------------------------------------------------------------------------------------------------------|
-| FortiSOAR SOC Simulator | Simulates a SOC environment and creates various scenarios-based artifacts such as alerts, incidents, etc. in FortiSOAR |
+| FortiSOAR SOC Simulator | Simulates a SOC environment and creates various scenarios-based artifacts such as alerts, cases, etc. in FortiSOAR |
 
 >[!Warning]
 >After deployment, this solution pack installs/upgrades the *FortiSOAR SOC Simulator* connector.
