@@ -8,7 +8,7 @@
 
 # Overview
 
-The **FortiSOAR&trade; SOC Simulator** solution pack helps you experience the power and capability of FortiSOAR&trade; case response for SOC simulation scenarios. This pack contains utilities for demonstrating FortiSOAR&trade; capabilities around a variety of important SOC use cases without having to integrate with actual device endpoints.
+The **FortiSOAR&trade; SOC Simulator** solution pack helps you experience the power and capability of FortiSOAR&trade; incident response for SOC simulation scenarios. This pack contains utilities for demonstrating FortiSOAR&trade; capabilities around a variety of important SOC use cases without having to integrate with actual device endpoints.
 
 # Next Steps 
  
