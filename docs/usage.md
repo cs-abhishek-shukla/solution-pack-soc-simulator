@@ -11,11 +11,17 @@ For example, in the *Stolen Credentials* scenario (available with the **Stolen C
 
 ![Stolen Credentials Scenario](./res/stolen-creds-scenario.png)
 
-You can also click the green ![SOC Simulator widget](./res/icon-start.svg) icon to run the scenario and create demo alerts.
+You can also click the green ![Run scenario](./res/icon-start.svg) icon to run the scenario and create demo alerts.
+
+## Scenario icons
+
+Each scenario record includes an *Icon* field that holds a representative image for the scenario. The icon appears on the scenario record and on the scenario card in the Scenario Simulator widget, which makes scenarios easier to identify at a glance.
+
+The field is optional. Scenarios without an icon display a default placeholder image in the widget. To set or change an icon, open the scenario record and update the **Icon** field.
 
 ## Simulate a scenario
 
-Simulating a scenario creates example alerts and records corresponding to the selected scenario. For example, when you run the *Stolen Credentials* scenario, it creates multiple demo alerts of different alert types.
+Simulating a scenario creates demo alerts and records corresponding to the selected scenario. For example, when you run the *Stolen Credentials* scenario, it creates multiple demo alerts of different alert types.
 
 Click an alert created by this simulation, for example, *Windows User Created* to open this alert and observe the following:
 
@@ -29,14 +35,12 @@ Hence, the FortiSOAR engine eases a SOC analyst's task of going through several 
 
 To view the source for the **Stolen credential leading to data exfiltration** scenario:
 
-1. Click <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-resources-light.svg"><img alt="Resources" src="./res/icon-resources-dark.svg" width="16" height="16"></picture> **Resources** <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-chevron-light.svg"><img alt=">" src="./res/icon-chevron-dark.svg" width="16" height="16"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-play-light.svg"><img alt="Simulations" src="./res/icon-play-dark.svg" width="15" height="15"></picture> **Simulations** to open the *Scenario* page listing all the available scenarios.
+1. Click <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-resources-light.svg"><img alt="Resources" src="./res/icon-resources-dark.svg"></picture> **Resources** <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-chevron-light.svg"><img alt="then" src="./res/icon-chevron-dark.svg"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-play-light.svg"><img alt="Simulations" src="./res/icon-play-dark.svg"></picture> **Simulations** to open the *Scenario* page listing all the available scenarios.
 
 2. Click **Stolen credential leading to data exfiltration**.
 
-> [!Note]
->
-> You may need to install the **Stolen Credential Leading to Data Exfiltration** solution pack to view this scenario.
-> 
+>[!Note]
+>You may need to install the **Stolen Credential Leading to Data Exfiltration** solution pack to view this scenario.
 
 3. Go to the **Source** tab to view the **Steps** section that contains data used by playbooks to create the demo records. IDs of the alerts created here appear in the **Created Alerts** section:
 
@@ -48,7 +52,7 @@ The **SOC Simulator** solution pack places the option to run simulations at mult
 
 ### Using the Scenario page
 
-1. Click <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-resources-light.svg"><img alt="Resources" src="./res/icon-resources-dark.svg" width="16" height="16"></picture> **Resources** <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-chevron-light.svg"><img alt=">" src="./res/icon-chevron-dark.svg" width="16" height="16"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-play-light.svg"><img alt="Simulations" src="./res/icon-play-dark.svg" width="15" height="15"></picture> **Simulations** to open the *Scenario* page listing all the available scenarios.
+1. Click <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-resources-light.svg"><img alt="Resources" src="./res/icon-resources-dark.svg"></picture> **Resources** <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-chevron-light.svg"><img alt="then" src="./res/icon-chevron-dark.svg"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-play-light.svg"><img alt="Simulations" src="./res/icon-play-dark.svg"></picture> **Simulations** to open the *Scenario* page listing all the available scenarios.
 
 2. Click the checkbox to select a scenario.
 
@@ -56,7 +60,7 @@ The **SOC Simulator** solution pack places the option to run simulations at mult
 
 ### Using a Scenario record
 
-1. Click <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-resources-light.svg"><img alt="Resources" src="./res/icon-resources-dark.svg" width="16" height="16"></picture> **Resources** <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-chevron-light.svg"><img alt=">" src="./res/icon-chevron-dark.svg" width="16" height="16"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-play-light.svg"><img alt="Simulations" src="./res/icon-play-dark.svg" width="15" height="15"></picture> **Simulations** to open the *Scenario* page listing all the available scenarios.
+1. Click <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-resources-light.svg"><img alt="Resources" src="./res/icon-resources-dark.svg"></picture> **Resources** <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-chevron-light.svg"><img alt="then" src="./res/icon-chevron-dark.svg"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-play-light.svg"><img alt="Simulations" src="./res/icon-play-dark.svg"></picture> **Simulations** to open the *Scenario* page listing all the available scenarios.
 
 2. Click a scenario record to open it.
 
@@ -66,19 +70,14 @@ The **SOC Simulator** solution pack places the option to run simulations at mult
 
 ### Using the Alerts page
 
-1. Click <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-incident-response-light.svg"><img alt="Security Operations" src="./res/icon-incident-response-dark.svg"></picture> **Security Operations** <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-chevron-light.svg"><img alt=">" src="./res/icon-chevron-dark.svg"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-alert-light.svg"><img alt="Alerts" src="./res/icon-alert-dark.svg"></picture> **Alerts** to open the Alerts page.
+1. Click <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-security-operations-light.svg"><img alt="Security Operations" src="./res/icon-security-operations-dark.svg"></picture> **Security Operations** <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-chevron-light.svg"><img alt="then" src="./res/icon-chevron-dark.svg"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-alert-light.svg"><img alt="Alerts" src="./res/icon-alert-dark.svg"></picture> **Alerts** to open the Alerts page.
 
 2. Click the **Simulate Scenario** button.
 
+    ![Simulating a scenario from the Alerts page](./res/simulate-scenario-alert.png)
+
 3. From the **Simulate Scenario** dialog, select a scenario from the **Scenario** drop-down.
 
-<<<<<<< Updated upstream
-1. Click **Security Operations** > **Alerts** to open the Alerts page.
-    ![Simulate From Alert Page](res/simulate-scenario-alert.png)
-2. Click the button **Simulate Scenario**.
-3. From the **Simulate Scenario** select a scenario from the **Scenario** drop-down.
-=======
->>>>>>> Stashed changes
 4. Click **Start Simulation** to run the selected scenario.
 
 ### Using the Scenario Simulator widget
@@ -93,6 +92,9 @@ The widget displays the following for each scenario:
 
 - A **Run Scenario** button for scenarios that have not been run, or a **Reset Scenario** button for scenarios that have already created demo records.
 
+>[!Note]
+>Refer to [Customize Scenario Simulator](./customize-scenario-simulator.md) for customizing the simulation records as they appear in the widget.
+
 To run a simulation from the widget:
 
 1. Open the widget on a record list page.
@@ -105,35 +107,26 @@ To reset a scenario from the widget, click **Reset Scenario** on the card of a s
 
 The widget refreshes automatically when scenario records are created, updated, or deleted, so the list and button states stay current. Use the refresh button next to the item count to reload the list manually.
 
-<!-- TODO: Add screenshot: Scenario Simulator widget listing scenario cards (suggested: res/scenario-simulator-widget.png) -->
 ![Scenario Simulator widget](./res/scenario-simulator-widget.png)
 
 ## Reset a scenario
 
-Resetting a scenario removes any demo alerts created by that scenario. The **Reset Scenario** option helps clear the environment of any example alerts and helps display only the actual records.
+Resetting a scenario removes any demo alerts created by that scenario. The **Reset Scenario** option helps clear the environment of any demo alerts and helps display only the actual records.
 
 You can reset a scenario by using any of the following methods.
 
 ### Using the Scenario page
 
-1. Click **Simulations** to open the **Scenario** page.
+1. Click <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-resources-light.svg"><img alt="Resources" src="./res/icon-resources-dark.svg"></picture> **Resources** <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-chevron-light.svg"><img alt="then" src="./res/icon-chevron-dark.svg"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-play-light.svg"><img alt="Simulations" src="./res/icon-play-dark.svg"></picture> **Simulations** to open the **Scenario** page.
 
-<<<<<<< Updated upstream
-1. Click **Resources** > **Simulations** to open the **Scenario** page.
-=======
->>>>>>> Stashed changes
 2. Click the checkbox to select a scenario that you have already run.
 
 3. Click the **Reset Scenario** button.
 
 ### Using scenario records
 
-1. Click **Simulations** to open the **Scenario** page.
+1. Click <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-resources-light.svg"><img alt="Resources" src="./res/icon-resources-dark.svg"></picture> **Resources** <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-chevron-light.svg"><img alt="then" src="./res/icon-chevron-dark.svg"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-play-light.svg"><img alt="Simulations" src="./res/icon-play-dark.svg"></picture> **Simulations** to open the **Scenario** page.
 
-<<<<<<< Updated upstream
-1. Click **Resources** > **Simulations** to open **Scenario** page.
-=======
->>>>>>> Stashed changes
 2. Click a scenario record, which you have already run, to open it.
 
 3. Click the **Reset Scenario** button.
@@ -146,7 +139,7 @@ You can move scenarios between FortiSOAR environments by exporting them to a JSO
 
 Exporting creates a JSON file containing the selected scenarios and stores it as an attachment record.
 
-1. Click **Simulations** to open the **Scenario** page.
+1. Click <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-resources-light.svg"><img alt="Resources" src="./res/icon-resources-dark.svg"></picture> **Resources** <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-chevron-light.svg"><img alt="then" src="./res/icon-chevron-dark.svg"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="./res/icon-play-light.svg"><img alt="Simulations" src="./res/icon-play-dark.svg"></picture> **Simulations** to open the **Scenario** page.
 
 2. Click the checkboxes to select one or more scenarios.
 
@@ -176,13 +169,12 @@ These guidelines address the scenario playbook creation process.
 
 3. ***Set Variable* step for recordIRIs:**
 
-   - Conclude each scenario playbook with a *Set Variable* step. In this step, create a variable named `recordIRIs` and assign it a value representing the list of all demo records generated by the scenario playbook.<br/><br/>
+   - Conclude each scenario playbook with a *Set Variable* step. In this step, create a variable named `recordIRIs` and assign it a value representing the list of all demo records generated by the scenario playbook.
 
-> [!Important]
-> 
-> Going forward we'll be using the *`recordIRIs`*, instead of `@id`, output variable for future releases.
-> 
-> ![Scenario Playbook End Step](./res/scenario_playbook_end_step.png)
+>[!Important]
+>Going forward we'll be using the *`recordIRIs`*, instead of `@id`, output variable for future releases.
+>
+>![Scenario Playbook End Step](./res/scenario_playbook_end_step.png)
 
 ## Next Steps
 
